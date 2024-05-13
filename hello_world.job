@@ -1,0 +1,8 @@
+#!/bin/bash
+# First line is the interpreter and should always be bash
+# Afterwards you should at least define the job name, where the command line output should be written to
+
+#SBATCH -J "Hello world" # Job name
+#SBATCH -o log.out # Output file
+
+echo "Hello world!"
